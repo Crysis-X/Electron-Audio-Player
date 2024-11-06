@@ -1,7 +1,7 @@
-import './index.css';
+import Controller from "./parts/Controller/Controller";
+import Playlists from "./parts/Playlists/Playlists";
+import "./index.css";
 
 document.body.innerHTML = "";
-
-const p = document.createElement("p");
-p.innerHTML = "Goodbye World";
-document.body.append(p);
+document.body.append(Controller());
+Playlists().then((element) => document.body.append(element));

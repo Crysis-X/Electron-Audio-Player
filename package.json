@@ -34,6 +34,7 @@
   "license": "MIT",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1",
-    "howler": "^2.2.4"
+    "howler": "^2.2.4",
+    "uniqid": "^5.4.0"
   }
 }

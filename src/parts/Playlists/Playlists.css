@@ -1,0 +1,19 @@
+.button-wrapper {
+  display: flex;
+  width: 100vw;
+  padding: 0 10px;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.current-playlist {
+  color: #faec29;
+  background: #fff;
+}
+.tracks-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.current-track {
+    color: #000;
+    background: #fff;
+}

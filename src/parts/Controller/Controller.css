@@ -1,0 +1,14 @@
+.control-btn {
+  padding: 0px;
+  width: 40px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  border: none;
+}
+.controller {
+  margin-top: 10px;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

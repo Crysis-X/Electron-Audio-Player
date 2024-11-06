@@ -1,0 +1,9 @@
+.track {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 20px 10px;
+  text-overflow: ellipsis;
+}
